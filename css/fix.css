@@ -167,7 +167,8 @@ nav.black-text {
 
 h4{font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 500 !important;}
+  font-weight: 600 !important;
+font-size: 2rem !important;}
 
   .italic {font-style: italic;}
 

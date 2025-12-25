@@ -67,7 +67,7 @@ li.tag-btn.active{background-color: #f2f2f2 !important; opacity:1 !important;}
 
 .sidenavbg {
   height: 100vh;
-  background-image: url('../logoseid/exports/final/square.png');
+  background-image: url('../logoseid/logo-icon.svg');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 100%;

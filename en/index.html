@@ -100,18 +100,19 @@
   <div id="sobrenos" class="modal">
     <div class="modal-content">
      <div class="row">
-        <div class="col m5 s12 center">
-                      <video class="responsive-video" width="100%" height="auto" autoplay muted loop>
-          <source src="../logoseid/exports/final/0001-0100.mp4" type="video/mp4">
-           Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col s12 m6 offset-m1">
+        <div class="col s12">
           <h4>About us</h4>
+
+          <div class="col s12 m5"><br>
+            <img class="responsive-img center-align" src="../logoseid/logo.svg">
+          </div>
+
+          <div class="col s12 m6 offset-m1">
           <p class="flow-text"><span class="balborinho">Balborinho</span> is an independent animation studio.</p>
           <p class="low-text">Our animations emerge from the dialogue between art, technology, and resistance, exploring social, historical, and human themes with a critical and poetic voice.</p>
           <p class="low-text">We work with Free and Open Source Software out of ethical and aesthetic conviction: we believe that the freedom of tools is inseparable from the freedom to create.</p>
           <p class="low-text"><span class="balborinho">Balborinho</span> means telling stories that disobey, imagining possible futures, and creating space for other ways of seeing and acting in the world.</p>
+          </div>
         </div>
      </div>    
     </div>
@@ -130,7 +131,7 @@
 
             <ul class="collapsible">
     <li>
-      <div class="collapsible-header"><i class="material-icons">tornado</i>What does “balborinho” mean?</div>
+      <div class="collapsible-header flow-text"><i class="material-icons">tornado</i>What does “balborinho” mean?</div>
       <div class="collapsible-body"><span>
         <span class="balborinho">Balborinho</span> is a legendary creature from traditional Portuguese folklore: a whirlwind that appears
          mostly at crossroads, protecting or hiding witches, devils, spirits, or demons, and acting as a gateway between worlds and destinies. But <span class="balborinho">Balborinho</span> is also a buzz, a collective murmur, noise full of life and invisible force, restlessness, and ideas in motion.
@@ -139,7 +140,7 @@
       </div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">copyright</i>And what about copyright and licenses?</div>
+      <div class="collapsible-header flow-text"><i class="material-icons">copyright</i>And what about copyright and licenses?</div>
       <div class="collapsible-body">
         <p>The default license for all original content from <span class="balborinho">Balborinho</span> is <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons – Attribution-ShareAlike (CC BY-SA).</a></p>
         <p>In short, you may copy and redistribute the material in any medium or format for any purpose, even commercially, and you may adapt, transform, and build upon the material for any purpose, even commercially. However, you must give appropriate credit, indicate if changes were made, and if you transform or build upon the material, you must distribute your contributions under the same license as the original.</p>
@@ -147,7 +148,7 @@
       </div>
     </li>
     <li>
-      <div class="collapsible-header"><i class="material-icons">movie</i>Why are so many films unfinished?</div>
+      <div class="collapsible-header flow-text"><i class="material-icons">movie</i>Why are so many films unfinished?</div>
       <div class="collapsible-body">
         <p>Our unfinished films are not failures, but visible stages of a living creative process. Each project reflects an idea in development, an open path, an ongoing attempt. We share these works knowing that the process is an integral part of artistic creation. Showing what is unfinished is to affirm that the creative process is as valuable as the final result.</p>
         <p>In a world that demands immediate results and finished products, sharing the unfinished is also a form of resistance. These projects express our desire to create freely, collaboratively, and without haste. The unfinished reveals as much about our journey as a completed work.</p>
@@ -170,14 +171,18 @@
   <div id="contactos" class="modal">
     <div class="modal-content">
      <div class="row">
-        <div class="col m6 s12 center">
-            <img class="responsive-img" src="../images/us.png">
-        </div>
-        <div class="col s12 m5 offset-m1">
+        <div class="col s12">
           <h4>Contact</h4>
-          <p class="fltext">Send an email to <span class="balborinho">balborinho@gmail.com</span> and we promise it will be read by one of these two people, who will will reply as soon as possible ;)</p>
-        </div>
+
+          <div class="col s12 m5"><br>
+            <img class="responsive-img center-align" src="../images/us.png">
+          </div>
+
+          <div class="col s12 m6 offset-m1">         
+          <p class="flow-text">Send an email to <span class="balborinho">balborinho@gmail.com</span> and we promise it will be read by one of these two people, who will will reply as soon as possible ;)</p>
+         </div>
      </div>    
+    </div>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
@@ -187,7 +192,9 @@
 
 <header style="padding-left: 20px;">
   <div class="row">
-     <div class="col s12 "><span class="work-sans-600 title">Balborinho</span><span class="hide-on-med-and-up"><br></span><span class="work-sans- subtitle">an independent animation studio</span></div>
+     <div class="col s12 ">
+          <img src="../logoseid/logo-text.svg" style="height: auto; width: 13rem; margin-top: 1rem; margin-right: 1rem;">
+      <span class="hide-on-med-and-up"><br></span><span class="work-sans- subtitle">an independent animation studio</span></div>
   </div>
 
   <div class="row  hide-on-med-and-down">
@@ -303,8 +310,22 @@
     </div>
   </div>
 <!---->
-  
-  
+
+
+
+  <!-- Modal Trigger -->
+   <div class="col s12 m4 l3 filtr-item project-container" data-category="2d, pro" data-sort="The End of Capitalism" style="margin-bottom: 5em;">
+      <div class="card z-depth-0">
+        <div class="card-image">
+          <a class="project-link modal-trigger" href="#teoc" ><img class="responsive-img" src="../projects/teoc.jpg" alt=""/></a>
+        </div>
+        <div class="card-content">
+          <h5 class="project-title truncate">The End of Capitalism</h5>
+          <p class="tags">2026 . 2D</p>
+        </div>
+      </div>
+  </div>
+
   <!-- Modal Structure -->
   <div id="teoc" class="modal">
     <div class="modal-content">

@@ -10,7 +10,7 @@ excerpt: "**presskit.html** is re-implementation of presskit() as a static site 
 links:
   - name: GitHub
     url: https://github.com/pixelnest/presskit.html
-  - name: Pixelnest Studio Presskit
+  - name: Balborinho Presskit
     url: https://pixelnest.io/presskit/
 ---
 
@@ -32,7 +32,7 @@ And even if [presskit()][dopresskit] was conceived with videogames in mind, we t
 
 Examples:
 
-* [Pixelnest Studio](https://pixelnest.io/presskit/) (built with **presskit.html**)
+* [Balborinho](https://pixelnest.io/presskit/) (built with **presskit.html**)
 * [Pizza Burger Studio](https://pixelnest.io/presskit.html/example/) (fake presskit - built with **presskit.html**)
 * [Vlambeer](http://www.vlambeer.com/press/)
 * [Flying Oak Games](http://www.flying-oak.com/presskit/index.php)

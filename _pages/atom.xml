@@ -5,7 +5,7 @@ permalink: /atom.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Pixelnest Studio</title>
+  <title>Balborinho</title>
 
   <link href="https://pixelnest.io/atom.xml" rel="self"/>
   <link href="https://pixelnest.io/"/>
@@ -15,7 +15,7 @@ permalink: /atom.xml
 
   <!-- authors -->
   <author>
-    <name>Pixelnest Studio</name>
+    <name>Balborinho</name>
     <uri>https://pixelnest.io/about/</uri>
   </author>
   <author>
@@ -43,7 +43,7 @@ permalink: /atom.xml
         {% if post.author %}
         <name>{{ post.author }}</name>
         {% else %}
-        <name>Pixelnest Studio</name>
+        <name>Balborinho</name>
         {% endif %}
 
         {% if post.author contains 'damien' or post.author contains 'Damien' %}

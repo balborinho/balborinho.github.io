@@ -27,7 +27,7 @@ permalink: /feed.json
         "url": "https://matthieuoger.com/"
           {% endif %}
         {% else %}
-        "name": "Pixelnest Studio",
+        "name": "Balborinho",
         "url": "https://pixelnest.io/"
         {% endif %}
       },

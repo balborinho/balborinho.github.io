@@ -1,0 +1,37 @@
+{% comment %}
+  Expected variables:
+
+  - member_name
+  - member_id
+  - member_avatar
+  - member_site
+  - member_twitter
+  - member_linkedin
+{% endcomment %}
+
+<div class="member">
+  <img class="member__avatar"
+       src="{{ member_avatar }}"
+       title="{{ member_name }}"
+       alt="{{ member_name }}">
+
+  <h1 class="member__title" id="{{ member_id }}">{{ member_name }}</h1>
+
+  <ul class="member__social">
+    <li class="member__item member__item--site">
+      <a href="{{ member_site }}/">
+        {{ member_site | remove: 'http://' | remove: 'https://' }}
+      </a>
+    </li>
+    <li class="member__item member__item--mastodon">
+      <a href="https://mastodon.social/@{{ member_mastodon }}/">
+        @{{ member_mastodon }}
+      </a>
+    </li>
+    <li class="member__item member__item--instagram">
+      <a href="https://www.instagram.com/{{ member_instagram }}/">
+        instagram.com/{{ member_instagram }}
+      </a>
+    </li>
+  </ul>
+</div>

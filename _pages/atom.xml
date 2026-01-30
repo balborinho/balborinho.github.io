@@ -1,0 +1,59 @@
+---
+layout: null
+permalink: /atom.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Pixelnest Studio</title>
+
+  <link href="https://pixelnest.io/atom.xml" rel="self"/>
+  <link href="https://pixelnest.io/"/>
+
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>https://pixelnest.io/</id>
+
+  <!-- authors -->
+  <author>
+    <name>Pixelnest Studio</name>
+    <uri>https://pixelnest.io/about/</uri>
+  </author>
+  <author>
+    <name>Damien Mayance</name>
+    <uri>https://dmayance.com/</uri>
+  </author>
+  <author>
+    <name>Matthieu Oger</name>
+    <uri>https://matthieuoger.com/</uri>
+  </author>
+
+  <!-- posts -->
+  {% for post in site.posts %}
+    <entry>
+      <title>{{ post.title }}</title>
+      <link href="https://pixelnest.io{{ post.url }}" />
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <id>https://pixelnest.io{{ post.id }}/</id>
+      <content type="html">
+        {{ post.content | xml_escape }}
+      </content>
+
+      <!-- author -->
+      <author>
+        {% if post.author %}
+        <name>{{ post.author }}</name>
+        {% else %}
+        <name>Pixelnest Studio</name>
+        {% endif %}
+
+        {% if post.author contains 'damien' or post.author contains 'Damien' %}
+        <uri>https://dmayance.com/</uri>
+        {% elsif post.author contains 'matthieu' or post.author contains 'Matthieu' %}
+        <uri>https://matthieuoger.com/</uri>
+        {% else %}
+        <uri>https://pixelnest.io/about/</uri>
+        {% endif %}
+      </author>
+    </entry>
+  {% endfor %}
+</feed>

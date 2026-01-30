@@ -1,0 +1,47 @@
+---
+layout: base
+---
+
+<div class="page tutorial" id="page">
+  {% include components/tutorial/promotion-header.html %}
+  {% include components/tutorial/header.html %}
+
+  <div class="page-content">
+    {% include components/tutorial/pager.html class="pager--top" %}
+
+    <article class="entry">
+      <header class="entry__header">
+        {% if page.subtitle %}
+          <h2 class="entry__subtitle">
+            {{ page.subtitle }}
+          </h2>
+        {% endif %}
+
+        <h1 class="entry__title">
+          <a href="{{ page.url | remove: 'index.html' }}">
+            {{ page.title }}
+          </a>
+        </h1>
+      </header>
+
+      {% if page.show_metadata == nil or page.show_metadata == true %}
+        <aside class="entry__metadata">
+          {% include components/author.html %}
+
+          <footer class="entry__date">
+            {{ page.date | date: "%d %b. %Y" | downcase }}
+          </footer>
+        </aside>
+      {% endif %}
+
+      <div class="entry__content">
+        {{ content }}
+      </div>
+    </article>
+
+    {% include components/tutorial/pager.html class="pager--bottom" %}
+    {% include components/tutorial/promotion.html %}
+  </div>
+
+  {% include components/tutorial/footer.html %}
+</div>

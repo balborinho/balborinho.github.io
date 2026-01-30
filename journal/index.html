@@ -1,0 +1,51 @@
+---
+title: Blog
+subtitle: 
+
+# Careful: adding a permalink will break the paginator (which is no longer maintained…)
+# So, for the moment, we need to let journal in its own folder.
+---
+
+<section class="block">
+  <h1 class="block__title">{{ page.title }}</h1>
+
+    {% for post in site.posts %}
+
+    <table class="blog_list">
+      <tr>
+        <td class="blog_list_author" >
+          {% if post.author %}
+            {% if post.author == "nafergo" %}
+              <img src="http://www.gravatar.com/avatar/c1ff8670d513aec771affeb05e96f665?s=200" class="circle" width="100px" height="auto" alt="nafergo">
+                {% elsif post.author == "lília" %}
+                  <img src="/static/images/team/lilia.png" width="100px" height="auto" alt="Lilia" class="circle">
+                    {% else %}
+                      <img src="/static/images/team/outro.png" alt="{{ post.author }}" class="circle">
+            {% endif %}
+              {% else %}
+                <img src="/static/images/team/balborinho.png" alt="Balborinho" class="circle">
+          {% endif %}
+          <br>
+          <h2 class="entry__subtitle">{{ post.author }}</h2>
+          <br>
+          
+           <span class="blog_list_date"> {{ post.date | date: "%d %b. %Y" | upcase }}</span>
+    </footer>
+        </td>
+        <td class="blog_list_content" >
+          <h1 class="product-item__title"><a href="{{ post.url }}" class="blog__link">{{ post.title }}</a></h1>
+          <h2 class="entry__subtitle">{% if post.subtitle %} {{ post.subtitle }}{% endif %}</h2>
+          
+          <p class=""><br>{{ post.excerpt }}</p>
+          
+          <a class="product-item__link" href="{{ post.url }}" >Ler mais </a>
+          <br>
+        </td>
+      </tr>
+
+    </table>
+    {% endfor %}
+
+
+</section>
+

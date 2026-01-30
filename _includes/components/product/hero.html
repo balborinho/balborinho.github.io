@@ -1,0 +1,118 @@
+{% assign hero = include.data %}
+
+<article class="product-hero">
+  <div class="product-hero__image-wrapper">
+    <img class="product-hero__image"
+         src="{{ hero.assets }}hero.jpg"
+         alt="{{ hero.title }}"
+         title="{{ hero.title }}">
+  </div>
+
+  <section class="product-hero__body">
+    <header class="product-hero__header">
+      <h1 class="product-hero__title">
+        
+          {{ hero.title }}
+        
+      </h1>
+
+      {% if hero.subtitle %}
+        <h2 class="product-hero__subtitle">{{ hero.subtitle }}</h2>
+      {% endif %}
+
+      <div class="product-item_type_div">
+      {% assign sorted = hero.type | unsort %}
+      {% for t in sorted %}
+        {% if t == 'service' %}
+        <span class="product-item__type product-item__type--service">Client Work</span>
+        {% else %}
+        <span class="product-item__type">{{ t }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    </header>
+
+
+
+
+
+    <div class="product-hero__content">
+      {{ hero.content | markdownify }}
+    </div>
+
+
+
+        
+    <h2 class="credits-title">Créditos</h2>
+
+    <table class="credits-list">
+
+<tr>{% if hero.titulo-pt %}<td><span class="credits-li-label">Título PT</span></td><td class="credits-li-content">{{ hero.titulo-pt }}</td>{% endif %}</tr>
+<tr>{% if hero.titulo-en %}<td><span class="credits-li-label">Title EN</span></td><td class="credits-li-content">{{ hero.titulo-en }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.directed-by %}<td><span class="credits-li-label">Realização</span></td><td class="credits-li-content">{{ hero.directed-by }}</td>{% endif %}</tr>
+<tr>{% if hero.written-by %}<td><span class="credits-li-label">Argumento</span></td><td class="credits-li-content">{{ hero.written-by }}</td>{% endif %}</tr>
+<tr>{% if hero.adapted-from %}<td><span class="credits-li-label">Adaptado de </span></td><td class="credits-li-content">{{ hero.based-on }}</td>{% endif %}</tr>
+<tr>{% if hero.based-on %}<td><span class="credits-li-label">Baseado </span></td><td class="credits-li-content">{{ hero.based-on }}</td>{% endif %}</tr>
+<tr>{% if hero.inspired-by %}<td><span class="credits-li-label">Inspirado </span></td><td class="credits-li-content">{{ hero.inspired-by }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.produced-by %}<td><span class="credits-li-label">Produtores</span></td><td class="credits-li-content">{{ hero.produced-by }}</td>{% endif %}</tr>
+<tr>{% if hero.production-company %}<td><span class="credits-li-label">Produtora</span></td><td class="credits-li-content">{{ hero.production-company }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.art-direction %}<td><span class="credits-li-label">Direção de Arte</span></td><td class="credits-li-content">{{ hero.art-direction }}</td>{% endif %}</tr>
+<tr>{% if hero.three-d %}<td><span class="credits-li-label">Equipa 3D</span></td><td class="credits-li-content">{{ hero.three-d }}</td>{% endif %}</tr>
+<tr>{% if hero.two-d %}<td><span class="credits-li-label">Equipa 2D</span></td><td class="credits-li-content">{{ hero.two-d }}</td>{% endif %}</tr>
+<tr>{% if hero.animation-by %}<td><span class="credits-li-label">Animação</span></td><td class="credits-li-content">{{ hero.animation-by }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.music-by %}<td><span class="credits-li-label">Música</span></td><td class="credits-li-content">{{ hero.music-by }}</td>{% endif %}</tr>
+<tr>{% if hero.sound-design-by %}<td><span class="credits-li-label">Design de Som</span></td><td class="credits-li-content">{{ hero.sound-design-by }}</td>{% endif %}</tr>
+    </table>
+
+    
+
+    <h2 class="credits-title">Detalhes & Especificações</h2>
+
+    <table class="credits-list">
+<tr>{% if hero.project-type %}<td><span class="credits-li-label">Tipo</span></td><td class="credits-li-content">{{ hero.project-type }}</td>{% endif %}</tr>
+<tr>{% if hero.genre %}<td><span class="credits-li-label">Género</span></td><td class="credits-li-content">{{ hero.genre }}</td>{% endif %}</tr>
+<tr>{% if hero.techniques %}<td><span class="credits-li-label">Técnicas</span></td><td class="credits-li-content">{{ hero.techniques }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.year %}<td><span class="credits-li-label">Ano</span></td><td class="credits-li-content">{{ hero.year }}</td>{% endif %}</tr>
+<tr>{% if hero.runtime %}<td><span class="credits-li-label">Duração</span></td><td class="credits-li-content">{{ hero.runtime }}</td>{% endif %}</tr>
+<tr>{% if hero.color %}<td><span class="credits-li-label">Cor</span></td><td class="credits-li-content">{{ hero.color }}</td>{% endif %}</tr>
+<tr>{% if hero.ratio %}<td><span class="credits-li-label">Formato do ecrã</span></td><td class="credits-li-content">{{ hero.ratio }}</td>{% endif %}</tr>
+<tr>{% if hero.sound %}<td><span class="credits-li-label">Som</span></td><td class="credits-li-content">{{ hero.sound }}</td>{% endif %}</tr>
+<tr><td class="separatorspace"></td><td></td></tr>
+<tr>{% if hero.country %}<td><span class="credits-li-label">País de origem</span></td><td class="credits-li-content">{{ hero.country }}</td>{% endif %}</tr>
+<tr>{% if hero.language %}<td><span class="credits-li-label">Língua</span></td><td class="credits-li-content">{{ hero.language }}</td>{% endif %}</tr>
+<tr>{% if hero.subtitles %}<td><span class="credits-li-label">Legendas</span></td><td class="credits-li-content">{{ hero.subtitles }}</td>{% endif %}</tr>
+    
+    </table>
+
+    <aside class="product-hero__links">
+      {% if hero.links and hero.links != empty %}
+        <ul>
+          {% for link in hero.links %}
+            <td>
+              <a href="{{ link.url }}">
+                {{ link.name }}
+              </a>
+            </td>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </aside>
+
+    <div class="product-hero__types">
+      {% assign sorted = hero.type | sort %}
+      {% for type in sorted %}
+        {% if type == 'service' %}
+        <span class="product-hero__type product-hero__type--service">Client Work</span>
+        {% else %}
+        <span class="product-hero__type">{{ type }}</span>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</article>

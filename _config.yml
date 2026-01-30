@@ -1,0 +1,98 @@
+title: "Balborinho"
+description: "Página oficial do Balborinho, um estúdio de animação independente."
+keywords: "estúdio, balborinho, independente, de autor, Abril, Portugal, Revolução, animação, cinema, 2d, 3d"
+
+google_tracking_code: ""
+
+# protocol & hostname for your site (it does not end with a '/')
+url: https://balborinho.com
+
+repository: "balborinho/balborinho.github.io"
+base_url: 
+
+excerpt_separator: <!--more-->
+locale: pt_PT
+# -------------------------------------------------------
+# Globals.
+# -------------------------------------------------------
+
+show_drafts: nil
+permalink: /:categories/:year/:month/:title/
+
+include: ['_pages']
+
+exclude:
+  - 'README.md'
+  - 'LICENSE'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'package.json'
+  - 'webpack.config.js'
+  - 'yarn.lock'
+  - 'node_modules'
+  - 'src'
+
+keep_files:
+  - static/bundle.css
+  - static/bundle.css.map
+  - static/bundle.js
+  - static/bundle.js.map
+
+# -------------------------------------------------------
+# Collections.
+# -------------------------------------------------------
+
+collections:
+  products:
+    output: true
+
+# -------------------------------------------------------
+# Defaults.
+# -------------------------------------------------------
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+
+# -------------------------------------------------------
+# Markdown.
+# -------------------------------------------------------
+
+kramdown:
+  input: GFM
+  parse_block_html: true
+  parse_span_html: true
+
+# -------------------------------------------------------
+# Code.
+# -------------------------------------------------------
+
+highlighter: rouge
+
+# -------------------------------------------------------
+# Pagination.
+# -------------------------------------------------------
+
+paginate_path: '/journal/:num/'
+paginate: 4
+
+# -------------------------------------------------------
+# Plugins.
+# -------------------------------------------------------
+
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from

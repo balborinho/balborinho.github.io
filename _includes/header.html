@@ -1,0 +1,41 @@
+<header class="page-header" id="top">
+
+  <section class="banner">
+    <div class="banner__cell logo">
+      <a href="/" class="logo__link">
+        <div class="logo__image">
+          <img src="/static/images/logo/logo_shadow.png" alt="Pixelnest Studio" title="Pixelnest Studio">
+        </div>
+       <div class="logo__name">
+          <img src="/static/images/logo/logo-text.svg" alt="Balborinho Studio" title="Balborinho Studio" style="width: 5em;">
+      </div>
+      </a>
+    </div>
+  </section>
+
+  <nav class="navbar">
+    <ul class="navbar__list">
+      <li class="navbar__item">
+        <a href="/projects/" {% if page.url contains '/projecos' %}class="is-active"{% endif %}>
+          Projetos
+        </a>
+      </li>
+      <li class="navbar__item">
+        <a href="/journal/" {% if page.url contains '/journal' %}class="is-active"{% endif %}>
+          Notícias
+        </a>
+      </li>
+      <li class="navbar__item">
+        <a href="/contacts/" {% if page.url contains '/contacts' %}class="is-active"{% endif %}>
+          Contactos
+        </a>
+      </li>
+      <li class="navbar__item">
+        <a href="/about/" {% if page.url contains '/about' %}class="is-active"{% endif %}>
+          Sobre nós
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</header>

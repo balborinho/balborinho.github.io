@@ -1,0 +1,16 @@
+<figure class="entry__author">
+          {% if entry_author %}
+            {% if entry_author == "nafergo" %}
+              <img src="http://www.gravatar.com/avatar/c1ff8670d513aec771affeb05e96f665?s=200" class="circle" width="100px" height="auto" alt="nafergo">
+                {% elsif entry_author == "lília" %}
+                  <img src="/static/images/team/lilia.png" width="100px" height="auto" alt="Lilia" class="circle">
+                    {% else %}
+                      <img src="/static/images/team/outro.png" alt="{{ post.author }}" class="circle">
+            {% endif %}
+              {% else %}
+                <img src="/static/images/team/balborinho.png" alt="Balborinho" class="circle">
+          {% endif %}
+          <br>
+          <h2 class="entry__subtitle">{{ entry_author }}</h2>
+          <br>
+</figure>

@@ -1,0 +1,32 @@
+{% assign item = include.data %}
+
+<article class="product-item">
+  <div class="product-item__image-wrapper">
+    <img class="product-item__image"
+         src="{{ item.assets }}cover.jpg"
+         alt="{{ item.title }}"
+         title="{{ item.title }}">
+  </div>
+
+  <section class="product-item__body">
+    <h1 class="product-item__title">
+      <a href="{{ product.url }}">
+        {{ item.title }}
+      </a>
+      {% assign sorted = item.type | unsort %}
+      {% for t in sorted %}
+        {% if t == 'service' %}
+        <span class="product-item__type product-item__type--service">Client Work</span>
+        {% else %}
+        <span class="product-item__type">{{ t }}</span>
+        {% endif %}
+      {% endfor %}
+    </h1>
+
+    <div class="product-item__content">
+      {{ item.excerpt | markdownify }}
+    </div>
+
+    <a class="product-item__link" href="{{ product.url }}" >Ler mais </a>
+  </section>
+</article>

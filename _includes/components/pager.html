@@ -1,0 +1,35 @@
+<div class="pager">
+
+  <section class="pager__previous">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        {% assign url = "/journal/" %}
+      {% else %}
+        {% capture url %}/journal/{{ paginator.previous_page }}/{% endcapture %}
+      {% endif %}
+
+      <a href="{{ url }}" class="pager__link">
+        ← <span>Previous</span>
+      </a>
+    {% else %}
+      ◇ Start
+    {% endif %}
+  </section>
+
+  <section class="pager__all">
+    <a href="/journal/archives/" class="pager__link">
+      <span>Archives</span>
+    </a>
+  </section>
+
+  <section class="pager__next">
+    {% if paginator.next_page %}
+      <a href="/journal/{{ paginator.next_page }}/" class="pager__link">
+        <span>Next</span> →
+      </a>
+    {% else %}
+      End ◆
+    {% endif %}
+  </section>
+
+</div>

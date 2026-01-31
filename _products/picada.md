@@ -5,7 +5,9 @@ titulo-pt: "Fim da picada"
 subtitle: "Guerra Colonial"
 type: ['2026', 'Curta', "5'"]
 
-etapa: pré-produção
+etapa: Pré-produção
+
+state: inproduction
 
 assets: /static/images/products/picada/
 
@@ -57,7 +59,7 @@ subtitles: en
 
 excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
 
-state: inproduction
+
 
 #links:
 #  - name: Trailer

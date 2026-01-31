@@ -1,8 +1,8 @@
 ---
-title: "O Fim do Capitalismo"
-titulo-en: "The End of the Capitalism"
+title: "The End of Capitalism"
+titulo-en: "The End of Capitalism"
 titulo-pt: "O Fim do Capitalismo"
-subtitle: "Uma fábula sobre o apetite sem limites do capitalismo."
+subtitle: "Uma fábula sobre o apetite sem limites do capitalismo"
 type: ['2026', 'Curta', "3'"]
 
 etapa: pré-produção
@@ -55,7 +55,7 @@ ratio: '16:9'
 sound: 
 
 country: Portugal
-language: 
+language: N/A
 subtitles: 
 
 excerpt: Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.

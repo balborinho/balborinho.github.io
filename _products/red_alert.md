@@ -72,6 +72,6 @@ state: inproduction
 <h2 class="">Sinopse</h2>
 Revolução e luta de classes para todos e em doses rápidas. Série de curtinhas animadas que explicam conceitos marxistas com humor.
 
-{{ page.etapa}} 
+
 
 

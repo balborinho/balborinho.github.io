@@ -8,23 +8,21 @@ redirect_from: /work/
 
 {% assign products = site.products | sort: 'date' | reverse %}
 
-
-<section class="block">
-  <h1 class="block__title">Em produção</h1>
-
-  {% for product in products %}
-    {% if product.state == "inproduction" %}
-        {% include components/product/item.html data=product %}
-    {% endif %}
-  {% endfor %}
-</section>
-
-
 <section class="block">
   <h1 class="block__title">Pré-produção</h1>
 
   {% for product in products %}
     {% if product.etapa == "Pré-produção" %}
+        {% include components/product/item.html data=product %}
+    {% endif %}
+  {% endfor %}
+</section>
+
+<section class="block">
+  <h1 class="block__title">Em produção</h1>
+
+  {% for product in products %}
+    {% if product.etapa == "Em produção" %}
         {% include components/product/item.html data=product %}
     {% endif %}
   {% endfor %}

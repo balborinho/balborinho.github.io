@@ -29,6 +29,11 @@
         <span class="product-item__type">{{ t }}</span>
         {% endif %}
       {% endfor %}
+
+{% if hero.etapa %}
+        <h4 class="product-hero__subtitle">{{ hero.etapa }}</h4>
+      {% endif %}
+ 
     </div>
 
     </header>

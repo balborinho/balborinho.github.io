@@ -2,7 +2,7 @@
 title: "Alerta vermelho!"
 titulo-en: "Red alert!"
 titulo-pt: "Alerta vermelho!"
-subtitle: "Marx explica os básicos"
+subtitle: "Marx tenta explicar os conceitos básicos sem perder a paciencia"
 type: ['2026', 'Série', "2'"]
 
 etapa: Produção

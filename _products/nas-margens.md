@@ -5,7 +5,9 @@ titulo-pt: "Nas margens"
 subtitle: "Experiências e aprendizagens"
 type: ['2026', 'Série', "2'"]
 
-etapa: animação
+etapa: Em produção
+
+state: inproduction
 
 assets: /static/images/products/nas-margens/
 
@@ -56,7 +58,6 @@ subtitles:
 
 excerpt: Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.
 
-state: inproduction
 
 #links:
 #  - name: Trailer

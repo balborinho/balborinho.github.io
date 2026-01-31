@@ -5,7 +5,9 @@ titulo-pt: "O Fim do Capitalismo"
 subtitle: "Uma fábula sobre o apetite sem limites do capitalismo"
 type: ['2026', 'Curta', "3'"]
 
-etapa: pré-produção
+etapa: Pré-produção
+
+state: inproduction
 
 assets: /static/images/products/o-fim-do-capitalismo/
 
@@ -60,7 +62,6 @@ subtitles:
 
 excerpt: Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.
 
-state: inproduction
 
 #links:
 #  - name: Trailer

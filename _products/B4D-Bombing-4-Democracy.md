@@ -5,7 +5,10 @@ titulo-pt: "Bombing 4 Democracy"
 subtitle: "Espalhando liberdade, um alvo de cada vez"
 type: ['2026', 'Curta', "3'"]
 
-etapa: pré-produção
+etapa: Pré-produção
+
+state: inproduction
+
 
 assets: /static/images/products/b4d-bombing-4-democracy/
 
@@ -56,7 +59,6 @@ subtitles: pt
 
 excerpt: Uma visão irónica que procura denunciar a violência da “democratização à força” e questiona quem realmente ganha quando a democracia chega… com explosivos.
 
-state: inproduction
 
 #links:
 #  - name: Trailer

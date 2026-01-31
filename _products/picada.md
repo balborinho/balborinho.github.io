@@ -2,7 +2,7 @@
 title: "Fim da picada"
 titulo-en: ""
 titulo-pt: "Fim da picada"
-subtitle: "Guerra Colonial"
+subtitle: "Uma história da Guerra Colonial"
 type: ['2026', 'Curta', "5'"]
 
 etapa: Pré-produção
@@ -57,8 +57,7 @@ country: Portugal
 language: pt
 subtitles: en
 
-excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
-
+excerpt: Baseado numa história real onde o absurdo convive com o quotidiano e tem consequências. 
 
 
 #links:
@@ -69,4 +68,6 @@ excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, 
 ---
 
 <h2 class="">Sinopse</h2>
-Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
+
+Baseado numa história real da Guerra Colonial onde o absurdo convive com o quotidiano e tem consequências. 
+

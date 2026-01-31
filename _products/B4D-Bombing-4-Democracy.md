@@ -1,8 +1,8 @@
 ---
-title: "B4D"
-titulo-en: "B4D"
-titulo-pt: "B4D"
-subtitle: " Bombing 4 Democracy"
+title: "Bombing 4 Democracy"
+titulo-en: "Bombing 4 Democracy"
+titulo-pt: "Bombing 4 Democracy"
+subtitle: "Espalhando liberdade, um alvo de cada vez"
 type: ['2026', 'Curta', "3'"]
 
 etapa: pré-produção
@@ -54,7 +54,7 @@ country: Portugal
 language: en
 subtitles: pt
 
-excerpt: Espalhando liberdade, um alvo de cada vez. Uma visão irónica que procura denunciar a violência da “democratização à força” e questiona quem realmente ganha quando a democracia chega… com explosivos.
+excerpt: Uma visão irónica que procura denunciar a violência da “democratização à força” e questiona quem realmente ganha quando a democracia chega… com explosivos.
 
 state: inproduction
 

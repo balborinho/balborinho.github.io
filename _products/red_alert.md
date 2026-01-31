@@ -5,7 +5,7 @@ titulo-pt: "Alerta vermelho!"
 subtitle: "Marx explica os básicos"
 type: ['2026', 'Série', "2'"]
 
-etapa: arte 2D, rigging
+etapa: em produção (arte 2D e rigging)
 
 assets: /static/images/products/red_alert/
 
@@ -57,7 +57,7 @@ country: Portugal
 language: pt
 subtitles: en
 
-excerpt: Revolução e luta de classes para todos e em doses rápidas. Série de curtas vinhetas animadas que explicam conceitos marxistas com humor.
+excerpt: Revolução e luta de classes para todos e em doses rápidas. Série de curtinhas animadas que explicam conceitos marxistas com humor.
 
 state: inproduction
 
@@ -70,7 +70,7 @@ state: inproduction
 ---
 
 <h2 class="">Sinopse</h2>
-Revolução e luta de classes para todos e em doses rápidas. Série de curtas vinhetas animadas que explicam conceitos marxistas com humor.
+Revolução e luta de classes para todos e em doses rápidas. Série de curtinhas animadas que explicam conceitos marxistas com humor.
 
 
 

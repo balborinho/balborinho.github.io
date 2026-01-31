@@ -2,10 +2,10 @@
 title: "The Factory"
 titulo-en: "The Factory"
 titulo-pt: "A Fábrica"
-subtitle: "A escola que escolhemos criar"
+subtitle: "A escola que não escolhemos criar"
 type: ['2026', 'Curta', "3'"]
 
-etapa: Em produção
+etapa: Produção
 
 state: inproduction
 

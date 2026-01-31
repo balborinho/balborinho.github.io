@@ -5,7 +5,7 @@ titulo-pt: "Nas margens"
 subtitle: "Experiências e aprendizagens"
 type: ['2026', 'Série', "2'"]
 
-etapa: Em produção
+etapa: Produção
 
 state: inproduction
 
@@ -56,7 +56,7 @@ country: Portugal
 language: 
 subtitles: 
 
-excerpt: Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.
+excerpt: Experiências e exercícios para aprender e testar soluções. 
 
 
 #links:
@@ -67,5 +67,5 @@ excerpt: Existe um conflito entre o impulso infinito do capitalismo para o cresc
 ---
 
 <h2 class="">Sinopse</h2>
-Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.
-
+Experiências e exercícios para aprender e testar soluções. 
+ 

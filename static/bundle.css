@@ -2336,24 +2336,35 @@ html {
         margin-right: 0
     }
     .product-item__image {
-        display: inline-block
+        display: inline-block;
+        width: 200px;
     }
+    
+    .blog_list_author img.circle {width: 50px !important;}
+    
+
     .product-item__link {
-        max-width: 150px;
-        margin: 0 auto;
-        padding: 6px;
-        color: #fff;
-        background: #ff1414;
-        border-radius: 2px;
-        font-size: 2rem;
-        transition: background .2s ease-out;
-        text-align: center
+    font-family: Bebas Neue, Arial Narrow, Arial, sans-serif;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    padding-right: 20px;
+    background-image: url("/static/images/icons/product-more.svg");
+    background-repeat: no-repeat;
+    background-position: right 2px;
+    background-size: 20px;
+    font-size: 2.4rem;
+    text-align: right;
+
     }
     .product-item__link:hover {
-        color: #fff;
-        background: #da4101;
-        text-decoration: none
+        
     }
+   .member-slot {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 5rem !important;
+    }    
 }
 
 .studio {
@@ -2970,8 +2981,11 @@ img.circle {border-radius: 1000px;}
 .navbar__item a{transition: all .25s ease-out;}
 
 .product-item__link {color: #070707 !important; transition: all .25s ease-out;}
+
 .product-item__link:hover { filter: brightness(0) saturate(100%) invert(23%) sepia(82%) saturate(3757%) hue-rotate(348deg) brightness(94%) contrast(116%) !important;}
 
 .entry__title a, .blog__link {color: #070707 !important; transition: all .25s ease-out;}
 
 .entry__title a:hover, .blog__link:hover {color: #ff1414 !important; transition: all .25s ease-out; background: #fff0;}
+
+.blog_list_excerpt { margin-top: 1em;}

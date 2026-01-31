@@ -5,7 +5,10 @@ titulo-pt: "A Fábrica"
 subtitle: "A escola que escolhemos criar"
 type: ['2026', 'Curta', "3'"]
 
-etapa: modelação
+etapa: Em produção
+
+state: inproduction
+
 
 assets: /static/images/products/the-factory/
 
@@ -59,7 +62,6 @@ subtitles: pt
 
 excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
 
-state: inproduction
 
 #links:
 #  - name: Trailer

@@ -5,7 +5,7 @@ titulo-pt: "Alerta vermelho!"
 subtitle: "Marx explica os básicos"
 type: ['2026', 'Série', "2'"]
 
-etapa: Em produção
+etapa: Produção
 
 state: inproduction
 

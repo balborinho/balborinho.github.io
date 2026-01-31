@@ -22,7 +22,7 @@ redirect_from: /work/
   <h1 class="block__title">Em produção</h1>
 
   {% for product in products %}
-    {% if product.etapa == "Em produção" %}
+    {% if product.etapa == "Produção" %}
         {% include components/product/item.html data=product %}
     {% endif %}
   {% endfor %}

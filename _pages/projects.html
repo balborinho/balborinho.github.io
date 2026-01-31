@@ -19,6 +19,17 @@ redirect_from: /work/
   {% endfor %}
 </section>
 
+
+<section class="block">
+  <h1 class="block__title">Pré-produção</h1>
+
+  {% for product in products %}
+    {% if product.etapa == "Pré-produção" %}
+        {% include components/product/item.html data=product %}
+    {% endif %}
+  {% endfor %}
+</section>
+
 <!--
 <section class="block">
   <h1 class="block__title">Concluídos</h1>

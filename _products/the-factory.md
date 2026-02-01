@@ -60,7 +60,7 @@ country: Portugal
 language: en
 subtitles: pt
 
-excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
+excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico na nossa sociedade.
 
 
 #links:
@@ -72,3 +72,4 @@ excerpt: Um ensaio visual sobre o papel da escola como instrumento ideológico, 
 
 <h2 class="">Sinopse</h2>
 Um ensaio visual sobre o papel da escola como instrumento ideológico, transformando diversidade em conformidade, moldando as pessoas para se ajustarem à estrutura social existente.
+

@@ -56,7 +56,7 @@ country: Portugal
 language: 
 subtitles: 
 
-excerpt: Experiências e exercícios para aprender e testar soluções. 
+excerpt: Algumas experiências e exercícios para aprender, treinar e testar técnicas. 
 
 
 #links:

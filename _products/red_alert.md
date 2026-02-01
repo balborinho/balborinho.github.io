@@ -59,7 +59,7 @@ country: Portugal
 language: pt
 subtitles: en
 
-excerpt: Revolução e luta de classes para todos e em doses rápidas. Série de curtinhas animadas que explicam conceitos marxistas com humor.
+excerpt: Série de curtinhas animadas com revolução e luta de classes em doses rápidas e com humor.
 
 
 

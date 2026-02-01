@@ -1,15 +1,15 @@
 {
-  "name": "pixelnest.github.io",
+  "name": "balborinho.github.io",
   "version": "2.1.0",
-  "description": "Balborinho — we craft games and apps.",
+  "description": "Balborinho",
   "license": "UNLICENSED",
   "private": true,
-  "repository": "pixelnest/pixelnest.github.io",
+  "repository": "balborinho/balborinho.github.io",
   "author": {
     "user": "Balborinho",
-    "url": "pixelnest.io"
+    "url": "balborinho.com"
   },
-  "homepage": "https://pixelnest.io/",
+  "homepage": "https://balborinho.com/",
   "scripts": {
     "start": "bundle exec jekyll build --watch & webpack --watch",
     "build": "yarn run build:webpack && yarn run build:jekyll",

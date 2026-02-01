@@ -1,11 +1,8 @@
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
-
-html, body { height: 100%;}
-
-body > footer {
-  position: sticky;
-  top: 100vh;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 html {
@@ -15,10 +12,44 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-body {
-    margin: 0;
-   
+body {background-color: #fcfcfc !important;}
+.footer {height: 64px !important; margin-top: -64px !important;}
+.content {min-height: 100% !important;}
+.content-inside { padding-bottom: 10px !important}
+
+
+.homepagefooter,  {height: 96px !important; margin-top: -96px !important;
+font-family: Bebas Neue, Arial Narrow, Arial, sans-serif;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  width: 100%;
+  background: rgba(0, 0, 0, .1);
 }
+
+.homepagecontent {min-height: 100% !important;}
+.homepagecontent-inside { padding-bottom: 96px !important}
+
+.navbar--home{float: left;width: 100%;
+margin-top: -96px !important;
+font-family: Bebas Neue, Arial Narrow, Arial, sans-serif;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0) !important;
+font-size: 3rem !important;
+display: contents;
+}
+
+  
+.navbar {min-height: 32px !important;}
+
+.homepage-footer__item {float: left;  width: 50%; height: 64px;}
+.homecopyright p {background-color: red !important; padding-left: 16px; top:50%}
+
+.home__content {padding-bottom: 40px;}
+
+
 
 article,
 aside,
@@ -1492,7 +1523,7 @@ html {
 .logo__link:hover .logo__name {
     color: #fcfcfc;
     text-shadow: none;
-    transform: translateY(2px) scale(1.2);
+    /* transform: translateY(2px) scale(1.2); */
     -webkit-font-smoothing: antialiased
 }
 
@@ -2365,6 +2396,10 @@ html {
         width: 100% !important;
         margin-bottom: 5rem !important;
     }    
+
+    .product-item__link {
+    padding-bottom: 0em !important;}
+
 }
 
 .studio {
@@ -2728,36 +2763,41 @@ html {
     vertical-align: middle
 }
 
-.page-footer__fullitem {
-    display: table-caption;
 
-}
-
-.page-footer__item.copyright p:first-child {
+.page-footer__item.copyright p:first-child,
+.homepage-footer__item.copyright p:first-child  {
     font-size: 1.3rem;
     color: #3b3b3b;
 }
 
-.page-footer__item.copyright p:last-child {
+.page-footer__item.copyright p:last-child,
+.homepage-footer__item.copyright p:last-child  {
     font-size: 1.6rem
 }
 
-.page-footer__item.social {
+.page-footer__item.social,
+.homepage-footer__item.social  {
     text-align: right
 }
 
-.page-footer__item.social img {
+.page-footer__item.social img,
+.homepage-footer__item.social img {
     vertical-align: middle;
     opacity: 0.8;
 }
 
 .page-footer__item.social .youtube,
-.page-footer__item.social .instagram {
+.page-footer__item.social .instagram,
+.homepage-footer__item.social .youtube,
+.homepage-footer__item.social .instagram {
+
     width: auto;
     height: 25px
 }
 
-.page-footer__item.social .youtube {
+.page-footer__item.social .youtube,
+.homepage-footer__item.social .youtube {
+    
     margin-right: 16px
 }
 
@@ -2768,20 +2808,24 @@ img.mastodon:hover {filter: brightness(0) saturate(100%) invert(15%) sepia(90%) 
 img.github:hover {filter: brightness(0) saturate(100%) invert(13%) sepia(10%) saturate(585%) hue-rotate(87deg) brightness(92%) contrast(91%);}
 
 
-.page-footer__item.social .instagram {
+.page-footer__item.social .instagram,
+.homepage-footer__item.social .instagram {
     margin-right: 32px
 }
 
-.page-footer__item.social .bbr {
+.page-footer__item.social .bbr,
+.homepage-footer__item.social .bbr  {
     width: auto;
     height: 35px
 }
 
-.page-footer__item.social a img {
+.page-footer__item.social a img, 
+.homepage-footer__item.social a img {
     transition: all .2s ease-out
 }
 
-.page-footer__item.social a:hover img {
+.page-footer__item.social a:hover img,
+.homepage-footer__item.social a:hover img  {
     opacity: 1;
     transform: scale(1.2);
 }
@@ -2989,3 +3033,22 @@ img.circle {border-radius: 1000px;}
 .entry__title a:hover, .blog__link:hover {color: #ff1414 !important; transition: all .25s ease-out; background: #fff0;}
 
 .blog_list_excerpt { margin-top: 1em;}
+
+
+.product-item__image { transition: all .25s ease-in-out;}
+
+.product-item__image:hover { color: rgba(0, 0, 0, .25);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .5), 0 5px 20px;
+    transform: translateY(-2px) scale(1.01);
+        transition: all .25s ease-in-out;
+}
+
+.product-item__link {width: fit-content;
+  float: right;
+  margin-right: 0.3em;
+  transition: all .25s ease-out;
+  padding-bottom: 2em;
+}
+
+.product-item__link:hover {margin-right: 0.1em;}
+

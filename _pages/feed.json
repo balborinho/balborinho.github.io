@@ -6,15 +6,15 @@ permalink: /feed.json
   "version": "https://jsonfeed.org/version/1",
   "title": "{{ site.title | strip_html | normalize_whitespace | escape }}",
   "description": "{{ site.description | strip_html | normalize_whitespace | escape }}",
-  "icon": "https://pixelnest.io/apple-touch-icon.png",
-  "favicon": "https://pixelnest.io/static/images/favicon.ico",
-  "home_page_url": "https://pixelnest.io/",
-  "feed_url": "https://pixelnest.io/feed.json",
+  "icon": "https://balborinho.com/apple-touch-icon.png",
+  "favicon": "https://balborinho.com/static/images/favicon.ico",
+  "home_page_url": "https://balborinho.com/",
+  "feed_url": "https://balborinho.com/feed.json",
   "items": [
     {% for post in site.posts %}
     {
-      "id": "https://pixelnest.io{{ post.url }}",
-      "url": "https://pixelnest.io{{ post.url }}",
+      "id": "https://balborinho.com{{ post.url }}",
+      "url": "https://balborinho.com{{ post.url }}",
       "title": {{ post.title | jsonify }},
       "content_html": {{ post.content | jsonify }},
       "author": {
@@ -28,7 +28,7 @@ permalink: /feed.json
           {% endif %}
         {% else %}
         "name": "Balborinho",
-        "url": "https://pixelnest.io/"
+        "url": "https://balborinho.com/"
         {% endif %}
       },
       "date_published": "{{ post.date }}"

@@ -57,7 +57,7 @@ country: Portugal
 language: en
 subtitles: pt
 
-excerpt: Uma visão irónica que procura denunciar a violência da “democratização à força” e questiona quem realmente ganha quando a democracia chega… com explosivos.
+excerpt: Uma visão irónica sobre a violência e quem realmente ganha com a “democratização à força”.
 
 
 #links:

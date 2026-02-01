@@ -60,7 +60,7 @@ country: Portugal
 language: N/A
 subtitles: 
 
-excerpt: Existe um conflito entre o impulso infinito do capitalismo para o crescimento contínuo e os limites finitos da Terra. Uma fábula sobre o apetite sem limites do capitalismo.
+excerpt: Uma fábula sobre as consequências do apetite sem limites do capitalismo.
 
 
 #links:

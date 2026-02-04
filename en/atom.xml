@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Balborinho</title>
+
+  <link href="https://balborinho.com/atom.xml" rel="self"/>
+  <link href="https://balborinho.com/"/>
+
+  <updated>2026-02-04T18:41:05+00:00</updated>
+  <id>https://balborinho.com/</id>
+
+  <!-- authors -->
+  <author>
+    <name>Balborinho</name>
+    <uri>https://balborinho.com/about/</uri>
+  </author>
+
+  <!-- posts -->
+  
+    <entry>
+      <title>Hello world! in January 2026</title>
+      <link href="https://balborinho.com/2026/01/hello-world/" />
+      <updated>2026-01-30T00:00:00+00:00</updated>
+      <id>https://balborinho.com/2026/01/hello-world/</id>
+      <content type="html">
+        &lt;p&gt;Hello world!&lt;/p&gt;
+
+&lt;p&gt;It is with great joy that I write this post to announce the launch of &lt;strong&gt;Balborinho&lt;/strong&gt;. After some previous attempts and experiments, the time has finally come to create Balborinho. Here is the status update at the end of January 2026.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;birthdate-of-balborinho&quot;&gt;Birthdate of Balborinho&lt;/h2&gt;
+
+&lt;p&gt;The year 2026 begins with three important milestones:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;domain registration;&lt;/li&gt;
+  &lt;li&gt;launch of the second version of the website (yes, there was one before this…);&lt;/li&gt;
+  &lt;li&gt;Portuguese localization of the Ramses interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first two mark the official foundation of Balborinho, and &lt;strong&gt;January 25&lt;/strong&gt;, the date of the domain registration, is the closest thing we have to an official date :)&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, I don’t know when and how regularly they will be updated, but profiles have been created here:
+&lt;a href=&quot;https://www.youtube.com/@Balborinho&quot;&gt;YouTube&lt;/a&gt;, &lt;a href=&quot;https://vimeo.com/balborinho&quot;&gt;Vimeo&lt;/a&gt;, &lt;a href=&quot;https://www.instagram.com/balborinho&quot;&gt;Instagram&lt;/a&gt;, &lt;a href=&quot;https://mastodon.social/@balborinho&quot;&gt;Mastodon&lt;/a&gt; and &lt;a href=&quot;https://github.com/balborinho&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contributions-to-ramses&quot;&gt;Contributions to Ramses&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rxlaboratorio.org/rx-tool/ramses/&quot;&gt;Ramses&lt;/a&gt; is an animation production management system developed by &lt;a href=&quot;https://rxlaboratorio.org/&quot;&gt;RxLaboratorio&lt;/a&gt;. It is a Free/Libre Software that allows you to organize and track the different stages of an animation production (storyboard, rigging, animation, render, etc.).&lt;/p&gt;
+
+&lt;p&gt;In recent years, several interesting free and open-source solutions have emerged for asset management and production management in animation. For those looking for tools of this kind, here is a small list of options to explore:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getavalon.github.io/2.0/&quot;&gt;Avalon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://clustta.com/&quot;&gt;Clustta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://damas-software.org/&quot;&gt;Damas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cg-wire.com/kitsu&quot;&gt;Kitsu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://prism-pipeline.com/&quot;&gt;Prism&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://rxlaboratorio.org/rx-tool/ramses/&quot;&gt;Ramses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/eoyilmaz/stalker&quot;&gt;Stalker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.southpawtech.com/tactic-open-source&quot;&gt;Tactic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tik-manager.com/&quot;&gt;TIK Manager&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I haven’t tried them all yet, but I’ve had the chance to explore some. Among them, &lt;a href=&quot;https://rxlaboratorio.org/rx-tool/ramses/&quot;&gt;Ramses&lt;/a&gt; stands out for combining several advantages, which I will try to summarize:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;available for Linux/Mac/Windows;&lt;/li&gt;
+  &lt;li&gt;can be used offline (no Internet needed): all resources stay on the local computer;&lt;/li&gt;
+  &lt;li&gt;can be used online (with a server): syncs across multiple computers via the Internet;&lt;/li&gt;
+  &lt;li&gt;I suspect (haven’t tried yet) that it can also be used on a local network or via cloud services (like Nextcloud, ownCloud, etc.);&lt;/li&gt;
+  &lt;li&gt;easy to install and use;&lt;/li&gt;
+  &lt;li&gt;assets management, including multiple versions;&lt;/li&gt;
+  &lt;li&gt;pipeline management (can connect with applications installed on the computer);&lt;/li&gt;
+  &lt;li&gt;project and task management;&lt;/li&gt;
+  &lt;li&gt;supports multiple users;&lt;/li&gt;
+  &lt;li&gt;very versatile: can be used to manage both individual and team projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Since no other solution offers all these advantages, I started using &lt;a href=&quot;https://rxlaboratorio.org/rx-tool/ramses/&quot;&gt;Ramses&lt;/a&gt; to manage our productions. That’s also why I contributed to the project by translating the interface into Portuguese.&lt;/p&gt;
+
+&lt;p&gt;A new version with several improvements, including Portuguese interface, will be released soon. When that happens, this platform will be one of the few, if not the only one, with a Portuguese interface. I hope it will be useful to someone ;) And if you have suggestions or fixes, send them to nafergo@gmail.com&lt;/p&gt;
+
+&lt;p&gt;Still on this topic, a reference to &lt;a href=&quot;https://rxlaboratorio.org/&quot;&gt;RxLaboratorio&lt;/a&gt;, an international nonprofit association founded in France to share and promote free and open software, resources, and ideas for film production. From their website, this gem: “Through free software, sharing, teaching, helping each other, we show that another world can be built together, without mercantilism and capitalism, where emancipation and freedom of all the people come from equality, financial independence and mutual assistance, in a world respectful of nature.”&lt;/p&gt;
+
+&lt;h2 id=&quot;and-the-films&quot;&gt;And the films?&lt;/h2&gt;
+
+&lt;p&gt;Ah! finally got here :) Quick summary for now:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fim da Picada&lt;/strong&gt; - still in the early stages of writing and art.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nas margens&lt;/strong&gt; - episode 1 is very close!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Red Alert!&lt;/strong&gt; - manily working on 2D drawings and rigs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Other projects have no news for now.&lt;/p&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+
+      </content>
+
+      <!-- author -->
+      <author>
+        
+        <name>nafergo</name>
+        
+
+        
+        <uri>https://balborinho.com/about/</uri>
+        
+      </author>
+    </entry>
+  
+</feed>

@@ -3121,3 +3121,5 @@ img.circle {border-radius: 1000px;}
 
 .member-slot a {color: #424242 !important;}
 .member-slot a:hover {color: #181818 !important;}
+
+.disabled {display: none;}

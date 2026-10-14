@@ -3098,3 +3098,5 @@ img.circle {border-radius: 1000px;}
 .product-hero__content table td {font-size: 1.5rem;}
 .product-hero__content table {width: auto;}
 .product-hero__content table td {height: auto;}
+
+.disabled {display: none;}

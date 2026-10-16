@@ -1,0 +1,42 @@
+pt:
+  - title: Projetos
+    url: /projects/
+  - title: Sobre nós
+    url: /about/
+  - title: Contacto
+    url: /contact/
+en:
+  - title: Projects
+    url: /en/projects/
+  - title: About
+    url: /en/about/
+  - title: Contacts
+    url: /en/contact/
+categories:
+  short:
+    pt: Curta
+    en: Short
+  2d:
+    pt: 2D
+    en: 2D
+  3d:
+    pt: 3D
+    en: 3D
+  series:
+    pt: Série
+    en: Series
+  experimental:
+    pt: Experimental
+    en: Experimental
+  stop-motion:
+    pt: Stop motion
+    en: Stop motion
+  software:
+    pt: Software
+    en: Software
+  research:
+    pt: Investigação
+    en: Research
+  other:
+    pt: Outros
+    en: Other

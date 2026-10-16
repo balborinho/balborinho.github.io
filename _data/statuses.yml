@@ -1,0 +1,21 @@
+# Vocabulário para o campo `status` dos projetos.
+# Usa a chave (ex.: status: in-development) para o rótulo aparecer
+# automaticamente na língua da página. Texto livre também funciona.
+planned:
+  pt: Planeado
+  en: Planned
+pre-production:
+  pt: Pré-produção
+  en: Pre-production
+in-production:
+  pt: Em produção
+  en: In production
+in-development:
+  pt: Em desenvolvimento
+  en: In development
+experimental:
+  pt: Em experimentação
+  en: Experimental
+complete:
+  pt: Concluído
+  en: Complete

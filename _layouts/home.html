@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <p class="eyebrow">{% if page.lang == 'en' %}Independent animation studio · Portugal{% else %}Estúdio de animação independente · Portugal{% endif %}</p>
+  <h1>{% if page.lang == 'en' %}Folklore, politics<br>and other <em>worlds.</em>{% else %}Folclore, política<br>e outros <em>mundos.</em>{% endif %}
+    
+  </h1>
+  <div class="hero-bottom">
+    <p>{% if page.lang == 'en' %}We make films and creative tools where popular culture meets critical imagination.{% else %}Criamos filmes e ferramentas onde a cultura popular se cruza com a imaginação crítica.{% endif %}</p>
+<span class="spiral-mark" aria-hidden="true">〰</span>
+    
+  </div>
+</section>
+{% assign featured_projects = site.projects | where: "lang", page.lang | where: "featured", true | sort: "order" %}
+<section class="projects-section wrap" id="projects">
+  <div class="section-heading"><h2>{% if page.lang == 'en' %}Selected work{% else %}Projetos em destaque{% endif %}</h2><span>{% if page.lang == 'en' %}Films · Experiments · Tools{% else %}Filmes · Experiências · Ferramentas{% endif %}</span></div>
+  <div class="project-grid">
+  {% for project in featured_projects %}
+    {% include project-card.html project=project lang=page.lang %}
+  {% endfor %}
+  </div>
+  {% if featured_projects.size == 0 %}<p class="empty-note">{% if page.lang == 'en' %}Featured projects will appear here soon.{% else %}Em breve, novos projetos em destaque.{% endif %}</p>{% endif %}
+  <p class="section-more"><a class="text-link" href="{% if page.lang == 'en' %}{{ '/en/projects/' | relative_url }}{% else %}{{ '/projects/' | relative_url }}{% endif %}">{% if page.lang == 'en' %}All projects ↗{% else %}Todos os projetos ↗{% endif %}</a></p>
+</section>
+<section class="manifesto">
+  <div class="wrap manifesto-inner">
+    <p class="eyebrow">{% if page.lang == 'en' %}What moves us{% else %}O que nos move{% endif %}</p>
+    <p class="manifesto-line">{% if page.lang == 'en' %}Stories from the margins. Myths that refuse to stay buried. Images that question the world as it is.{% else %}Histórias à margem. Mitos que se recusam a ficar enterrados. Imagens que questionam o mundo tal como ele é.{% endif %}</p>
+    <a class="text-link" href="{% if page.lang == 'en' %}/en/about/{% else %}/about/{% endif %}">{% if page.lang == 'en' %}Meet the studio ↗{% else %}Conhece o estúdio ↗{% endif %}</a>
+  </div>
+</section>

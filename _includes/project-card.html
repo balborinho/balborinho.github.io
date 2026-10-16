@@ -1,0 +1,12 @@
+<article class="project-card" data-categories="{{ include.project.categories | join: ' ' }}">
+  <a href="{{ include.project.url | relative_url }}" class="project-image">
+    <img src="{{ include.project.thumbnail | default: '/assets/images/project-placeholder.svg' | relative_url }}" alt="{{ include.project.title | escape }}" loading="lazy" onerror="this.onerror=null;this.src='{{ '/assets/images/project-placeholder.svg' | relative_url }}'">
+    {% if include.project.featured %}<span class="featured-tag">{% if include.lang == 'en' %}Featured{% else %}Destaque{% endif %}</span>{% endif %}
+  </a>
+  <div class="project-meta">
+    <div><h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
+    <p>{{ include.project.description | default: include.project.technique }}</p></div>
+    <span class="project-year">{{ include.project.year }}</span>
+  </div>
+  <div class="tag-list">{% for category in include.project.categories %}<span>{% if site.data.navigation.categories[category] %}{{ site.data.navigation.categories[category][include.lang] }}{% else %}{{ category }}{% endif %}</span>{% endfor %}</div>
+</article>

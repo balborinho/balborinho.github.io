@@ -1,0 +1,51 @@
+{%- comment -%}
+  Uso: {% include video-embed.html video=video lang=page.lang project_title=page.title %}
+  `video` é um item da lista `videos:` do projeto: url (obrigatório), title, caption, poster.
+  URLs suportados: YouTube (watch, youtu.be, embed, shorts), Vimeo, e ficheiros .mp4/.webm/.ogv.
+{%- endcomment -%}
+{%- assign vurl = include.video.url -%}
+{%- assign kind = "" -%}
+{%- assign embed = "" -%}
+{%- if vurl contains "youtube.com/watch" -%}
+  {%- assign vid = vurl | split: "v=" | last | split: "&" | first -%}
+  {%- assign kind = "iframe" -%}{%- assign embed = "https://www.youtube-nocookie.com/embed/" | append: vid -%}
+{%- elsif vurl contains "youtu.be/" -%}
+  {%- assign vid = vurl | split: "youtu.be/" | last | split: "?" | first -%}
+  {%- assign kind = "iframe" -%}{%- assign embed = "https://www.youtube-nocookie.com/embed/" | append: vid -%}
+{%- elsif vurl contains "youtube.com/embed/" -%}
+  {%- assign vid = vurl | split: "embed/" | last | split: "?" | first -%}
+  {%- assign kind = "iframe" -%}{%- assign embed = "https://www.youtube-nocookie.com/embed/" | append: vid -%}
+{%- elsif vurl contains "youtube.com/shorts/" -%}
+  {%- assign vid = vurl | split: "shorts/" | last | split: "?" | first -%}
+  {%- assign kind = "iframe" -%}{%- assign embed = "https://www.youtube-nocookie.com/embed/" | append: vid -%}
+{%- elsif vurl contains "vimeo.com/" -%}
+  {%- assign vpath = vurl | split: "vimeo.com/" | last | split: "?" | first | remove: "video/" -%}
+  {%- assign vparts = vpath | split: "/" -%}
+  {%- assign kind = "iframe" -%}{%- assign embed = "https://player.vimeo.com/video/" | append: vparts[0] -%}
+  {%- if vparts[1] -%}{%- assign embed = embed | append: "?h=" | append: vparts[1] -%}{%- endif -%}
+{%- elsif vurl contains ".mp4" or vurl contains ".webm" or vurl contains ".ogv" -%}
+  {%- assign kind = "file" -%}
+{%- endif -%}
+{%- if include.lang == 'en' -%}
+  {%- capture default_title %}Video: {{ include.project_title }}{% endcapture -%}
+{%- else -%}
+  {%- capture default_title %}Vídeo: {{ include.project_title }}{% endcapture -%}
+{%- endif -%}
+{%- assign vtitle = include.video.title | default: default_title -%}
+{%- if vurl -%}
+<figure class="video-figure">
+  {%- if kind == "iframe" %}
+  <div class="video-embed"><iframe src="{{ embed }}" title="{{ vtitle | escape }}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  {%- elsif kind == "file" %}
+  <video class="video-file" controls preload="metadata" playsinline aria-label="{{ vtitle | escape }}"{% if include.video.poster %} poster="{% if include.video.poster contains '://' %}{{ include.video.poster }}{% else %}{{ include.video.poster | relative_url }}{% endif %}"{% endif %}>
+    <source src="{% if vurl contains '://' %}{{ vurl }}{% else %}{{ vurl | relative_url }}{% endif %}"{% if vurl contains '.webm' %} type="video/webm"{% elsif vurl contains '.ogv' %} type="video/ogg"{% else %} type="video/mp4"{% endif %}>
+    <a href="{% if vurl contains '://' %}{{ vurl }}{% else %}{{ vurl | relative_url }}{% endif %}">{{ vtitle }}</a>
+  </video>
+  {%- else %}
+  <p><a class="text-link" href="{{ vurl }}" target="_blank" rel="noopener">{{ vtitle }} ↗</a></p>
+  {%- endif %}
+  {%- if include.video.caption %}
+  <figcaption>{{ include.video.caption }}</figcaption>
+  {%- endif %}
+</figure>
+{%- endif -%}

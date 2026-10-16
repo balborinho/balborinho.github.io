@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% assign all_projects = site.projects | where: "lang", page.lang | sort: "order" %}
+{% comment %} Só aparecem filtros para categorias que têm projetos nesta língua. {% endcomment %}
+{% assign used_count = 0 %}
+{% capture filter_buttons %}
+  {% for cat in site.data.navigation.categories %}
+    {% assign cat_key = cat[0] %}
+    {% assign cat_labels = cat[1] %}
+    {% assign cat_total = 0 %}
+    {% for p in all_projects %}{% if p.categories contains cat_key %}{% assign cat_total = cat_total | plus: 1 %}{% endif %}{% endfor %}
+    {% if cat_total > 0 %}
+      {% assign used_count = used_count | plus: 1 %}
+      <button type="button" class="filter-btn" data-filter="{{ cat_key }}" aria-pressed="false">{{ cat_labels[page.lang] }}</button>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+<section class="projects-section projects-page wrap" id="projects">
+  <p class="eyebrow">{% if page.lang == 'en' %}Balborinho studio{% else %}Estúdio Balborinho{% endif %}</p>
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if used_count > 1 %}
+  <div class="filter-bar" data-filter-bar hidden role="group" aria-label="{% if page.lang == 'en' %}Filter projects by category{% else %}Filtrar projetos por categoria{% endif %}" data-count-one="{% if page.lang == 'en' %}project{% else %}projeto{% endif %}" data-count-other="{% if page.lang == 'en' %}projects{% else %}projetos{% endif %}">
+    <button type="button" class="filter-btn" data-filter="all" aria-pressed="true">{% if page.lang == 'en' %}All{% else %}Todos{% endif %}</button>
+    {{ filter_buttons }}
+  </div>
+  <p class="filter-status" data-filter-status aria-live="polite"></p>
+  {% endif %}
+  <div class="project-grid" data-project-grid>
+  {% for project in all_projects %}
+    {% include project-card.html project=project lang=page.lang %}
+  {% endfor %}
+  </div>
+  {% if all_projects.size == 0 %}<p class="empty-note">{% if page.lang == 'en' %}Projects will appear here soon.{% else %}Em breve, novos projetos.{% endif %}</p>{% endif %}
+</section>

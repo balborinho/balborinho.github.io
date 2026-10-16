@@ -1,0 +1,33 @@
+title: Balborinho
+description: Independent animation, folklore and political imagination.
+url: "https://balborinho.com"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+lang: pt
+# Email de contacto (usado no rodapé e nas páginas de contacto) — CONFIRMA ANTES DE PUBLICAR
+email: balborinho@gmail.com
+image: /assets/images/card.jpg
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      lang: pt
+      featured: false
+      categories: []
+      year: ""
+      order: 99
+      thumbnail: /assets/images/project-placeholder.svg
+plugins:
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+exclude:
+  - README.md
+  - fetch-images.sh
+  - LICENSE

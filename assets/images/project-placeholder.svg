@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#ded9cd"/>
+<g fill="none" stroke="#171713" stroke-width="8" stroke-linecap="round">
+<path d="M600 120c-230 0-360 180-260 320 75 105 265 25 245-95-12-73-105-87-145-33-31 43 8 91 49 76"/>
+<path d="M605 255c150-12 260 90 228 220-24 100-148 135-223 75-50-40-37-118 18-135 39-12 72 22 55 54"/>
+<path d="M380 590c120 100 300 125 435 30"/>
+</g>
+<g fill="#e7442e"><circle cx="600" cy="450" r="18"/><path d="M155 180l40 70 80-10-40 70 40 70-80-10-40 70-15-80-80-20 70-40z"/></g>
+<text x="600" y="790" font-family="monospace" font-size="24" text-anchor="middle" fill="#171713" letter-spacing="6">IMAGE / PLACEHOLDER</text>
+</svg>

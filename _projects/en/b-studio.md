@@ -12,7 +12,8 @@ featured: true
 order: 7
 thumbnail: /assets/images/projects/b-studio/cover.jpg
 hero: /assets/images/projects/b-studio/hero.jpg
-status: In use (updates as needed)
+status: completed
+year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -26,3 +27,4 @@ Data is stored locally in the browser and can be imported and exported in JSON f
 
 Try it <a class="home-card__link" href="https://balborinho.com/B-Studio/">here</a>. The source code is available in the <a class="home-card__link" href="https://github.com/balborinho/B-Studio">GitHub repository</a>.
 
+In use (updates as needed)

@@ -16,6 +16,9 @@ in-development:
 experimental:
   pt: Em experimentação
   en: Experimental
-complete:
+completed:
   pt: Concluído
-  en: Complete
+  en: Completed
+on-hold:
+  pt: Em pausa
+  en: On hold

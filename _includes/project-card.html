@@ -5,8 +5,13 @@
   </a>
   <div class="project-meta">
     <div><h3><a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a></h3>
+          <span class="project-year">
+      {% assign status_labels = site.data.statuses[include.project.status] %}
+        {% if include.project.year != "" %}{{ include.project.year }}{% endif %} | 
+        {% if include.project.status %}{{ status_labels[include.lang] | default: include.project.status }}{% endif %}
+    </span><br><br>
     <p>{{ include.project.description | default: include.project.technique }}</p></div>
-    <span class="project-year">{{ include.project.year }}</span>
+
   </div>
   <div class="tag-list">{% for category in include.project.categories %}<span>{% if site.data.navigation.categories[category] %}{{ site.data.navigation.categories[category][include.lang] }}{% else %}{{ category }}{% endif %}</span>{% endfor %}</div>
 </article>

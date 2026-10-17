@@ -12,7 +12,8 @@ featured: true
 order: 7
 thumbnail: /assets/images/projects/b-studio/cover.jpg
 hero: /assets/images/projects/b-studio/hero.jpg
-status: em uso (atualizações se necessário)
+status: completed
+year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -26,3 +27,4 @@ Os dados são guardados localmente no navegador e podem ser importados e exporta
 
 Pode ser experimentada <a class="home-card__link" href="https://balborinho.com/B-Studio/">aqui</a>. O código-fonte está disponível no <a class="home-card__link" href="https://github.com/balborinho/B-Studio">repositório GitHub</a>.
 
+em uso (atualizações se necessário)

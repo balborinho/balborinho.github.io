@@ -12,7 +12,8 @@ featured: false
 order: 9
 thumbnail: /assets/images/projects/b-festival/cover.jpg
 hero: /assets/images/projects/b-festival/hero.jpg
-status: em uso (atualizações se necessário)
+status: completed
+year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -25,3 +26,4 @@ Os dados são guardados localmente no navegador. A aplicação permite importar 
 
 Pode ser experimentada <a class="home-card__link" href="https://balborinho.com/B-Festival/">aqui</a>. O código-fonte está disponível no <a class="home-card__link" href="https://github.com/balborinho/B-Festival/">repositório GitHub</a>.
 
+em uso (atualizações se necessário)

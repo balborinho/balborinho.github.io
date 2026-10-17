@@ -8,11 +8,12 @@ title: "B-Festival"
 description: "Film Festival Submission Manager"
 categories:
   - other
+year: 2026
 featured: false
 order: 9
 thumbnail: /assets/images/projects/b-festival/cover.jpg
 hero: /assets/images/projects/b-festival/hero.jpg
-status: In use (updates as needed)
+status: completed
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -23,6 +24,8 @@ credits:
 A simple tool for organising and tracking information related to film festival submissions.
 
 Data is stored locally in the browser. The application supports importing and exporting JSON files, allowing users to create backups and share information between users or devices.
+
+In use (updates as needed)
 
 Try it <a class="home-card__link" href="https://balborinho.com/B-Festival/">here</a>. The source code is available in the <a class="home-card__link" href="https://github.com/balborinho/B-Festival/">GitHub repository</a>.
 

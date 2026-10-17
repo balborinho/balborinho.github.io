@@ -12,7 +12,8 @@ featured: false
 order: 8
 thumbnail: /assets/images/projects/b-storycards/cover.jpg
 hero: /assets/images/projects/b-storycards/hero.jpg
-status: em uso (atualizações se necessário)
+status: completed
+year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -25,3 +26,4 @@ Os dados podem ser exportados e importados em formato CSV, permitindo guardar c�
 
 Pode ser experimentada <a class="home-card__link" href="https://balborinho.com/B-StoryCards/">aqui</a>. O código-fonte está disponível no  <a class="home-card__link" href="https://github.com/balborinho/B-StoryCards">repositório GitHub</a>.
 
+em uso (atualizações se necessário)

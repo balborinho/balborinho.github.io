@@ -9,11 +9,12 @@ layout: default
   {% if page.description %}<p class="project-intro">{{ page.description }}</p>{% endif %}
   {% assign cover = page.hero | default: page.thumbnail %}
   <img class="project-cover" src="{{ cover | relative_url }}" alt="{{ page.title | escape }}" onerror="this.onerror=null;this.src='{{ '/assets/images/project-placeholder.svg' | relative_url }}'">
-  {% if page.technique or page.duration or page.status %}
+  {% if page.technique or page.duration or page.status or page.year %}
   <dl class="project-facts">
     {% if page.technique %}<div><dt>{% if page.lang == 'en' %}Technique{% else %}Técnica{% endif %}</dt><dd>{{ page.technique }}</dd></div>{% endif %}
     {% if page.duration %}<div><dt>{% if page.lang == 'en' %}Duration{% else %}Duração{% endif %}</dt><dd>{{ page.duration }}</dd></div>{% endif %}
     {% if page.status %}<div><dt>{% if page.lang == 'en' %}Status{% else %}Estado{% endif %}</dt><dd>{{ status_labels[page.lang] | default: page.status }}</dd></div>{% endif %}
+    {% if page.year %}<div><dt>{% if page.lang == 'en' %}Year{% else %}Ano{% endif %}</dt><dd>{{ page.year }}</dd></div>{% endif %}
   </dl>
   {% endif %}
   {% if page.videos and page.videos.size > 0 %}

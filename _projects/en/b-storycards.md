@@ -12,7 +12,8 @@ featured: false
 order: 8
 thumbnail: /assets/images/projects/b-storycards/cover.jpg
 hero: /assets/images/projects/b-storycards/hero.jpg
-status: In use (updates as needed)
+status: completed
+year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"
@@ -25,3 +26,5 @@ A simple tool for organising ideas, structuring narratives, and planning story s
 Data can be imported and exported in CSV format, making it easy to create backups and share information between users or devices.
 
 Try it <a class="home-card__link" href="https://balborinho.com/B-StoryCards/">here</a>. The source code is available in the <a class="home-card__link" href="https://github.com/balborinho/B-StoryCards">GitHub repository</a>.
+
+In use (updates as needed)

@@ -13,6 +13,7 @@ layout: default
   <dl class="project-facts">
     {% if page.technique %}<div><dt>{% if page.lang == 'en' %}Technique{% else %}Técnica{% endif %}</dt><dd>{{ page.technique }}</dd></div>{% endif %}
     {% if page.duration %}<div><dt>{% if page.lang == 'en' %}Duration{% else %}Duração{% endif %}</dt><dd>{{ page.duration }}</dd></div>{% endif %}
+    {% if page.language %}<div><dt>{% if page.lang == 'en' %}Language{% else %}Língua{% endif %}</dt><dd>{{ page.language }}</dd></div>{% endif %}
     {% if page.status %}<div><dt>{% if page.lang == 'en' %}Status{% else %}Estado{% endif %}</dt><dd>{{ status_labels[page.lang] | default: page.status }}</dd></div>{% endif %}
     {% if page.year %}<div><dt>{% if page.lang == 'en' %}Year{% else %}Ano{% endif %}</dt><dd>{{ page.year }}</dd></div>{% endif %}
   </dl>

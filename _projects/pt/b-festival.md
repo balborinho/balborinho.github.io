@@ -8,12 +8,13 @@ title: "B-Festival"
 description: "Gestor de Candidaturas a Festivais"
 categories:
   - other
+year: 2026
+language: en  
 featured: false
 order: 9
 thumbnail: /assets/images/projects/b-festival/cover.jpg
 hero: /assets/images/projects/b-festival/hero.jpg
 status: completed
-year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"

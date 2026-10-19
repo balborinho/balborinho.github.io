@@ -9,13 +9,14 @@ description: "A visual essay on the role of school as an ideological instrument 
 categories:
   - short
   - 3d
-year: 2026
+year: 2027
 featured: false
 order: 1
 thumbnail: /assets/images/projects/the-factory/cover.jpg
 hero: /assets/images/projects/the-factory/hero.jpg
 technique: "3D animation"
 duration: "3'"
+language: en
 status: in-production
 credits:
   - role: "Director"

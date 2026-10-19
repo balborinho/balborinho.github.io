@@ -9,12 +9,14 @@ description: "A fable about capitalism’s boundless appetite."
 categories:
   - short
   - 2d
+year: 2027
 featured: false
 order: 5
 thumbnail: /assets/images/projects/o-fim-do-capitalismo/cover.jpg
 hero: /assets/images/projects/o-fim-do-capitalismo/hero.jpg
 technique: "2D animation"
 duration: "4'"
+language: en
 status: pre-production
 credits:
   - role: "Director"

@@ -9,13 +9,14 @@ description: "Um ensaio visual sobre o papel da escola como instrumento ideológ
 categories:
   - short
   - 3d
-year: 2026
+year: 2027
 featured: false
 order: 1
 thumbnail: /assets/images/projects/the-factory/cover.jpg
 hero: /assets/images/projects/the-factory/hero.jpg
 technique: "Animação 3D"
 duration: "3'"
+language: en
 status: in-production
 credits:
   - role: "Realização"

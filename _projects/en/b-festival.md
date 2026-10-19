@@ -9,6 +9,7 @@ description: "Film Festival Submission Manager"
 categories:
   - other
 year: 2026
+language: en
 featured: false
 order: 9
 thumbnail: /assets/images/projects/b-festival/cover.jpg

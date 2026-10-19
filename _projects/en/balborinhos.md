@@ -11,13 +11,14 @@ categories:
   - series
   - 3d
   - 2d
-year: 2026
+year: 2026-...
 featured: true
 order: 3
 thumbnail: /assets/images/projects/balborinhos/cover.jpg
 hero: /assets/images/projects/balborinhos/hero.jpg
 technique: "Various"
 duration: "2'"
+language: none
 status: in-production
 credits:
   - role: "Director"

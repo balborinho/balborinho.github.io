@@ -8,12 +8,13 @@ title: "B-Studio"
 description: "Um gestor de produção de animação"
 categories:
   - other
+year: 2026
+language: en  
 featured: true
 order: 7
 thumbnail: /assets/images/projects/b-studio/cover.jpg
 hero: /assets/images/projects/b-studio/hero.jpg
 status: completed
-year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"

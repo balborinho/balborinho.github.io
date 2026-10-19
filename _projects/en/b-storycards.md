@@ -8,12 +8,13 @@ title: "B-StoryCards"
 description: "Story Planning Cards"
 categories:
   - other
+year: 2026
+language: en
 featured: false
 order: 8
 thumbnail: /assets/images/projects/b-storycards/cover.jpg
 hero: /assets/images/projects/b-storycards/hero.jpg
 status: completed
-year: 2026
 credits:
   - role: "Dev"
     name: "Nelson Gonçalves"

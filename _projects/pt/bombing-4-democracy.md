@@ -9,12 +9,14 @@ description: "Uma visão irónica sobre a violência e quem realmente ganha com 
 categories:
   - short
   - 3d
+year: 2027
 featured: false
 order: 6
 thumbnail: /assets/images/projects/bombing-4-democracy/cover.jpg
 hero: /assets/images/projects/bombing-4-democracy/hero.jpg
 technique: "Animação 2D digital (frame-a-frame)"
 duration: "5'"
+language: en
 status: pre-production
 credits:
   - role: "Realização"

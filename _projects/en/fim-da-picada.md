@@ -1,20 +1,22 @@
 ---
-published: false
 ref: fim-da-picada
 lang: en
 permalink: /en/projects/fim-da-picada/
 redirect_from:
   - /en/products/picada/
-title: "Fim da picada"
-description: "Based on a true story where the absurd coexists with everyday life and has consequences."
+title: "The End of the Trail"
+description: "A story from the Colonial War"
 categories:
-  - short-3d
+  - short
+  - 3d
+year: 2027
 featured: false
 order: 4
 thumbnail: /assets/images/projects/fim-da-picada/cover.jpg
 hero: /assets/images/projects/fim-da-picada/hero.jpg
 technique: "3D animation"
 duration: "8'"
+language: pt
 status: pre-production
 credits:
   - role: "Director"
@@ -23,8 +25,7 @@ credits:
     name: "Nelson Gonçalves"
   - role: "Production company"
     name: "Balborinho"
-
 ---
-**A story from the Colonial War**
+**The absurdity of war woven into everyday life.**
 
-Inspired by true stories and facts where the absurd coexists with everyday life and has consequences.
+Inspired by true stories and facts where the absurd coexists with everyday life and has consequences. 

@@ -9,12 +9,14 @@ description: "An ironic take on violence and on who truly benefits from “force
 categories:
   - short
   - 3d
+year: 2027
 featured: false
 order: 6
 thumbnail: /assets/images/projects/bombing-4-democracy/cover.jpg
 hero: /assets/images/projects/bombing-4-democracy/hero.jpg
 technique: "Digital 2D animation (frame by frame)"
 duration: "5'"
+language: en
 status: pre-production
 credits:
   - role: "Director"

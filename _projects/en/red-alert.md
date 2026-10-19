@@ -10,13 +10,14 @@ categories:
   - series
   - 3d
   - 2d  
-year: 2026
+year: 2027-...
 featured: true
 order: 2
 thumbnail: /assets/images/projects/red-alert/cover.jpg
 hero: /assets/images/projects/red-alert/hero.jpg
 technique: "2D animation"
 duration: "2'"
+language: pt
 status: in-production
 credits:
   - role: "Director"

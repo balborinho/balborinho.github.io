@@ -4,7 +4,7 @@ lang: pt
 permalink: /projects/red-alert/
 redirect_from:
   - /products/red_alert/
-title: "Alerta vermelho!"
+title: "Alerta Vermelho!"
 description: "Revolução e luta de classes em doses rápidas e com humor."
 categories:
   - series

@@ -4,7 +4,7 @@ lang: pt
 permalink: /projects/fim-da-picada/
 redirect_from:
   - /products/picada/
-title: "Fim da picada"
+title: "Fim da Picada"
 description: "Uma história da Guerra Colonial."
 categories:
   - short
